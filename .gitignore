@@ -1,0 +1,54 @@
+# Database files
+*.duckdb
+*.duckdb.wal
+
+# JSONL files except specific ones
+*.jsonl
+!data/processed/training_model_results.jsonl
+
+# Python bytecode
+__pycache__/
+data/raw/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment and IDE
+.env
+.venv
+env/
+venv/
+ENV/
+.idea/
+.vscode/
+.python-version
+*.lock
+
+# Logs
+*.log
+
+# Temporary files
+.DS_Store
+.ipynb_checkpoints
+temp/
+
+# Claude files
+CLAUDE.md
+*.Identifier
+hello.py

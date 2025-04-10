@@ -1,0 +1,2020 @@
+# Configuration for article filtering by category and subject
+
+# Categories to exclude from analysis
+excluded_categories:
+  - StyleDesk
+  - DiningInDiningOutStyleDesk
+  - HouseHomeStyleDesk
+  - TStyle
+  - TWomensFashionMagazine
+  - TMensFashionMagazine
+  - Fashion
+  - ArtsandLeisureDesk
+  - MoviesPerformingArtsWeekendDesk
+  - TravelDesk
+  - Games
+  - TTravelMagazine
+  - THolidayMagazine
+  - TEntertaining
+  - RealEstateDesk
+  - AtHome
+  - PersonalTech
+  - SmarterLiving
+  - YourMoney
+  - Retirement
+  - Wealth
+  - PaidDeathNotice
+  - ObituaryObitBiography
+  - PaidMemorialNotice
+  - SportsDesk
+  - MetropolitanDesk
+  - TheArtsCulturalDesk
+  - ScienceDesk
+  - Biography
+  - Letter
+  - Correction
+  - SocietyDesk
+  - BusinessFinancialDesk
+  - MoneyandBusinessFinancialDesk
+  - TDesignMagazine
+  - TGreats
+  - TCulture
+  - TBeautyMagazine
+  - Technology
+  - EducationLifeSupplement
+  - PaidDeathNotice
+  - OpEd
+  - Schedule
+  - Editorial
+  - Review
+
+
+# Subjects that are relevant for analysis
+excludable_subjects:
+  - Air fares
+  - Theater
+  - Film & stage music
+  - Motion pictures
+  - Musical theater
+  - Television advertising
+  - Television ratings
+  - Musicians & conductors
+  - Childrens television
+  - Tennis
+  - Opera
+  - Meals
+  
+
+# Subjects that are relevant for analysis
+relevant_subjects:
+  - War
+  - Invasions
+  - Military personnel
+  - Military air strikes
+  - Military strategy
+  - Military withdrawals
+  - Military aid
+  - Military engagements
+  - Military policy
+  - Military exercises
+  - Military bases
+  - Military reserves
+  - Military aircraft
+  - Military weapons
+  - Military history
+  - Military sales
+  - Military supplies
+  - Military training
+  - Military technology
+  - Military cemeteries and funerals
+  - Military occupations
+  - Military police
+  - Military intelligence
+  - Military officers
+  - Military deployment
+  - Armed forces
+  - Casualties
+  - Civilians
+  - Defense
+  - Insurgency
+  - Rebellions
+  - Riots
+  - Bombings
+  - Bomb scares
+  - Explosions
+  - Explosives
+  - Biological & chemical weapons
+  - War crimes
+  - Atrocities
+  - Truces & cease fires
+  - Peace negotiations
+  - Peace
+  - Alliances
+  - Sanctions
+  - Terrorism
+  - Counterterrorism
+  - Weapons
+  - Missiles
+  - Nuclear weapons
+  - Nuclear tests
+  - Nuclear war
+  - Arms control & disarmament
+  - Prisoners of war & missing in action
+  - Prisoner treatment
+  - Prisoner exchanges
+  - Espionage
+  - Intelligence gathering
+  - Intelligence services
+  - Classified information
+  - National security
+  - Sovereignty
+  - Territorial issues
+  - Border security
+  - Border patrol
+  - Border walls
+  - Propaganda
+  - Humanitarian aid
+  - Humanitarianism
+  - Displaced persons
+  - Refugees
+  - Refugee camps
+  - Raids
+  - Sieges
+  - Guerrilla forces
+  - Paramilitary groups
+  - Militia groups
+  - Coups d'etat
+  - Civil war
+  - Assassinations & assassination attempts
+  - Suicide bombings
+  - Massacres
+  - Mass murders
+  - Violence
+  - Shootings
+  - Stabbings
+  - Assaults
+  - Riots
+  - Riot control
+  - Martial law
+  - State of emergency
+  - Defense spending
+  - Defense contracts
+  - Aircraft
+  - Aircraft carriers
+  - Warships
+  - Submarines
+  - Military vehicles
+  - Armored vehicles
+  - Tanks
+  - Artillery
+  - Ammunition
+  - Drones
+  - Cyberwarfare
+  - Information warfare
+  - Electronic warfare
+  - Propaganda
+  - Peacekeeping forces
+  - Special forces
+  - Combatants
+  - Battleships
+  - Cruise missiles
+  - Land mines
+  - Military tribunals
+  - Courts martial
+  - Friendly fire
+  - Covert operations
+  - Resistance
+  - Nazi era
+  - Nazi groups
+  - World War II
+  - World War I
+  - Vietnam War
+  - Korean War
+  - Cold War
+  - American Civil War
+  - Gulf War
+  - Iraq War-2003
+  - Afghanistan War
+  - Geopolitics
+  - International relations
+  - International relations-US
+  - Diplomacy
+  - Diplomatic & consular services
+  - Embargoes & blockades
+  - Treaties
+  - International agreements
+  - International law
+  - International courts
+  - International organizations
+  - United Nations
+  - NATO
+  - Conflict resolution
+  - Political prisoners
+  - Political dissent
+  - Political asylum
+  - Political persecution
+  - Political alliances
+  - Political transition
+  - Political power
+  - Political finance
+  - Political ethics
+  - Political campaigns
+  - Political parties
+  - Political leadership
+  - Political activism
+  - Political dissent
+  - Political prisoners
+  - Political representation
+  - Political systems
+  - Political theory
+  - Power
+  - Opposition parties
+  - Dictators
+  - Authoritarianism
+  - Fascism
+  - Communism
+  - Socialism
+  - Capitalism
+  - Democracy
+  - Oligarchy
+  - Autocracy
+  - Populism
+  - Nationalism
+  - Imperialism
+  - Colonialism
+  - Neocolonialism
+  - Secession
+  - Separatism
+  - Independence movements
+  - Revolutions
+  - Civil disobedience
+  - Nonviolence
+  - Civil rights movements
+  - Human rights
+  - Genocide
+  - Crimes against humanity
+  - Torture
+  - War correspondents
+  - Journalists
+  - Press conferences
+  - Media coverage
+  - Censorship
+  - Freedom of the press
+  - Freedom of speech
+  - Freedom of assembly
+  - Freedom of religion
+  - Propaganda
+  - Whistleblowing
+  - Leaking of information
+  - Surveillance
+  - Electronic surveillance
+  - Cyberattacks
+  - Cybersecurity
+  - Data encryption
+  - Personal information
+  - Privacy
+  - Security services
+  - National identity
+  - Patriotism
+  - Ideology
+  - Extremism
+  - Radicalism
+  - White supremacy
+  - Islamism
+  - Antisemitism
+  - Racism
+  - Sexism
+  - Homophobia
+  - Xenophobia
+  - Hate crimes
+  - Hate speech
+  - Violence
+  - Gun violence
+  - Deadly force
+  - Police brutality
+  - Police corruption
+  - Police reform
+  - Police shootings
+  - Police departments
+  - Law enforcement
+  - Criminal investigations
+  - Criminal justice
+  - Criminal law
+  - Criminal procedure
+  - Criminal statistics
+  - Criminal liability
+  - Criminal intent
+  - Criminal pleas
+  - Criminal sentences
+  - Convictions
+  - Acquittals & mistrials
+  - Indictments
+  - Arrests
+  - Search warrants
+  - Arrest warrants
+  - Trials
+  - Court hearings & proceedings
+  - Court decisions
+  - State court decisions
+  - Federal court decisions
+  - Supreme Court decisions
+  - Evidence
+  - Testimony
+  - Witnesses
+  - Attorneys
+  - Judges & magistrates
+  - Juries
+  - Grand juries
+  - Public prosecutors
+  - District attorneys
+  - Attorneys general
+  - Legal arguments
+  - Legal defense
+  - Legal ethics
+  - Legal reform
+  - Legal aid
+  - Litigation
+  - Settlements & damages
+  - Fines & penalties
+  - Imprisonment
+  - Prisons
+  - Prisoners
+  - Death & dying
+  - Fatalities
+  - Deaths
+
+# Locations that are relevant for analysis
+relevant_locations:
+  - Russia
+  - Strait of Hormuz
+  - Guatemala
+  - El Salvador
+  - South Korea
+  - Tajikistan
+  - Lithuania
+  - Algeria
+  - Cairo Egypt
+  - Ethiopia
+  - Kuwait
+  - Suez Canal
+  - Asia
+  - Sweden
+  - Waziristan Pakistan
+  - Argentina
+  - Tbilisi Georgia (country)
+  - Georgia (country)
+  - Canberra Australian Capital Territory Australia
+  - Palau
+  - East Germany
+  - Aachen Germany
+  - Austria
+  - Luzon
+  - Rwanda
+  - Southeast Asia
+  - Mali
+  - Belgium
+  - Guinea Bissau
+  - Prussia (Europe)
+  - Dominican Republic
+  - Tonga
+  - English Channel
+  - Melbourne Victoria Australia
+  - Djibouti
+  - Jordan (country)
+  - South Vietnam
+  - Horn of Africa
+  - Taiwan Strait
+  - Berlin Germany
+  - Yalu River
+  - Balkan states
+  - Ho Chi Minh City Vietnam
+  - Guyana
+  - Kisumu Kenya
+  - Burkina Faso
+  - Bahamas
+  - Central Africa
+  - Kherson Ukraine
+  - Transnistria
+  - Al Qaa Lebanon
+  - Nochixtlan Mexico
+  - Oaxaca Mexico
+  - Nimrud
+  - Bay of Bengal
+  - Persian Gulf states
+  - Bulgaria
+  - Prussia
+  - Jordan Valley
+  - Addis Aba ba Ethiopia
+  - Tigray Ethiopia
+  - Meuse River
+  - Bhutan
+  - Eurasia
+  - Avon River
+  - Zaire
+  - Bosnia-Hercegovina
+  - Sahel (African region)
+  - Tunis Tunisia
+  - Laos
+  - Prague Czech Republic
+  - Unit ed States--US
+  - Indus Valley
+  - Per sian Gulf states
+  - Congo River
+  - Lausanne Switzerland
+  - Guadalcanal
+  - Saadiyat Island
+  - Elbe River
+  - Nordic region
+  - South East Europe
+  - Kos Greece
+  - Balkan Peninsula
+  - Surt Libya
+  - Bikini Atoll
+  - Al Fallujah Iraq
+  - Bucha Ukraine
+  - Yancheng China
+  - Cam Ranh Bay
+  - Douma Syria
+  - Pacific Islands
+  - Carpathian Mountains
+  - New Guinea
+  - Mostar Bosnia-Hercegovina
+  - Alice Springs Northern Territory Australia
+  - Tal Abyad Syria
+  - Ciudad Juarez Mexico
+  - United Kingd om--UK
+  - Shiraz Iran
+  - Mashiki Japan
+  - Dolomites
+  - Hindu Kush
+  - Tyrrhenian Sea
+  - Nevis
+  - Lake Baikal
+  - Wye River
+  - North Vietnam
+  - Volgograd Russia
+  - Skopje Macedonia
+  - Iranian Kurdistan
+  - Sao Paulo Brazil
+  - Srinagar India
+  - British Isles
+  - Ivangorod Russia
+  - Eswatini
+  - Micronesia
+  - Siberut
+  - Wigan England
+  - French Guiana
+  - Mount Gerizim
+  - Lesotho
+  - Selangor Malaysia
+  - Malaya
+  - Nares Strait
+  - Stepanakert Azerbaijan
+  - Lake Turkana
+  - Hubei China
+  - Darwin Northern Territory Australia
+  - Sahrawi
+  - Lamu Kenya
+  - Sao Tome & Principe
+  - Erfurt Germany
+  - Godavari River
+  - Flanders Belgium
+  - Jolo Philippines
+  - Hunter Valley
+  - Herxheim am Berg Germany
+  - Marseille France
+  - Hainan China
+  - Malakal South Sudan
+  - Taiw an
+  - Eastern Desert
+  - Necker Island
+  - Tashkent Uzbekistan
+  - Kiribati
+  - Hudaydah Yemen
+  - Gonaives Haiti
+  - Sunderland England
+  - Faeroe Islands
+  - Afghanistan
+  - Mozambique
+  - Europe
+  - Israel
+  - Central America
+  - Hong Kong
+  - Northern Ireland
+  - Chile
+  - Crimea
+  - Kabul Afghanistan
+  - Istanbul Turkey
+  - Zambia
+  - Gabon
+  - Rio de Janeiro Brazil
+  - Arctic region
+  - Nigeria
+  - British Columbia Canada
+  - Greece
+  - Scotland
+  - Gaza Strip
+  - Dubai United Arab Emirates
+  - Union of Soviet Socialist Republics--USSR
+  - Arabian Sea
+  - Kirkuk Iraq
+  - Tel Aviv Israel
+  - Western Hemisphere
+  - Bangkok Thailand
+  - Kobane Syria
+  - Czech Republic
+  - Tunisia
+  - Sierra Leone
+  - Finland
+  - Cambodia
+  - Port Au Prince Haiti
+  - Eritrea
+  - Addis Ababa Ethiopia
+  - Kuala Lumpur Malaysia
+  - Azerbaijan
+  - Jamaica
+  - Zanzibar
+  - Philippine Sea
+  - Arabian Peninsula
+  - Atlantic Ocean
+  - Chad (country)
+  - Arctic Ocean
+  - Tikrit Iraq
+  - Maiduguri Nigeria
+  - Deir al-Zour Syria
+  - Manitoba Canada
+  - United Kingdo m--UK
+  - Vilnius Lithuania
+  - Thessaloniki Greece
+  - Fort McMurray Alberta Canada
+  - Abbottabad Pakistan
+  - Essequibo River
+  - Walbrzych Poland
+  - White Sea
+  - Kiribati Islands
+  - United State s--US
+  - Caracas Venezuela
+  - Cape Town South Africa
+  - Bekaa Valley
+  - Zagros Mountains
+  - Mount Paektu
+  - Bukavu Congo-Democratic Republic of Congo
+  - Shanghai China
+  - Galilee
+  - Reims France
+  - Juba South Sudan
+  - Amur River
+  - Turkistan
+  - Essequibo
+  - Kampala Uganda
+  - Balasore India
+  - Abaco Islands Bahamas
+  - Torres Strait
+  - Dead Sea
+  - Mount Kumgang
+  - Rozsypne Ukraine
+  - Mount Pinatubo
+  - Po River
+  - Yaounde Cameroon
+  - Munich Germany
+  - Somme River
+  - German y
+  - Waterloo Ontario Canada
+  - Punta del Este Uruguay
+  - Tancitaro Mexico
+  - Tora Bora
+  - Ne w York
+  - Macerata Italy
+  - Southern Africa
+  - Ottawa River
+  - Mex ico
+  - Hawija Iraq
+  - Ta iz Yemen
+  - Macedonia region
+  - Adriatic Sea
+  - Guantanamo Cuba
+  - La Higuera Bolivia
+  - Copenhagen Denmark
+  - Hong K ong
+  - Ke ntucky
+  - Eastern Eu rope
+  - Kattankudy Sri Lanka
+  - Amazon River
+  - Hamburg Germany
+  - Jammu India
+  - Iwo Jima
+  - Galicia Spain
+  - Stutthof concentration camp
+  - Seine River
+  - Ghor Afghanistan
+  - Sarawak Malaysia
+  - La Rioja Argentina
+  - Judean Desert
+  - Lashkar Gah Afghanistan
+  - Sado Island
+  - Tyrol (State in Austria)
+  - Lake Garda
+  - Nelson River
+  - Byzantium
+  - San Martin El Salvador
+  - Ka zakhstan
+  - Congo Basin
+  - Zhejiang China
+  - Antwerp Belgium
+  - Altena Germany
+  - Barbuda
+  - Uni ted States--US
+  - Midlands (England)
+  - Macedon
+  - Naharayim
+  - Basra Iraq
+  - Huangyan Island
+  - Bamako Mali
+  - Mount Semeru
+  - Mount Ebal
+  - Burrup Peninsula
+  - Kayseri Turkey
+  - Casablanca Morocco
+  - Lake Maggiore
+  - Ibiza
+  - Kyiv U kraine
+  - Omdurman Sudan
+  - Katowice Poland
+  - Winnipeg Manitoba Canada
+  - Ukrain e
+  - Swat Pakistan
+  - Rijeka Croatia
+  - Soviet region
+  - L Aquila Italy
+  - Noto Peninsula
+  - Sonora Mexico
+  - Germany
+  - Congo-Democratic Republic of Congo
+  - Denmark
+  - Morocco
+  - China
+  - Mexico
+  - Middle East
+  - Australia
+  - Burundi
+  - Spain
+  - Malta
+  - Yemen
+  - Venezuela
+  - Myanmar (Burma)
+  - Baghdad Iraq
+  - Costa del Sol
+  - Wales
+  - East Asia
+  - Belarus
+  - Netherlands
+  - Abkhazia Georgia (country)
+  - Benghazi Libya
+  - Portugal
+  - Khartoum Sudan
+  - Armenia
+  - Sinai Peninsula
+  - Central African Republic
+  - Yugoslavia
+  - Abu Dhabi United Arab Emirates
+  - Liberia
+  - Catalonia Spain
+  - North Island
+  - Equatorial Guinea
+  - Namibia
+  - Togo
+  - Iceland
+  - Western Canada
+  - Saskatchewan Canada
+  - Yellow Sea
+  - Fraser Valley
+  - Guinea
+  - East China Sea
+  - Navarre Spain
+  - Wuhan China
+  - Xinjiang China
+  - Aleppo Syria
+  - Iguala Mexico
+  - Moldova
+  - Jakarta Indonesia
+  - Franz Josef Land
+  - Indo-Pacific region
+  - Bay of Fundy
+  - Albania
+  - Tripoli Libya
+  - Dublin Ireland
+  - Nangarhar Afghanistan
+  - Sharm el Sheikh Egypt
+  - Czechoslovakia
+  - Ilovaisk Ukraine
+  - Granada Spain
+  - Brussels Belgium
+  - Afrin Syria
+  - Stuttgart Germany
+  - Kibera Kenya
+  - Balkh Afghanistan
+  - Vanuatu
+  - Rawalpindi Pakistan
+  - Teheran Iran
+  - Tigris River
+  - Glasgow Scotland
+  - Fiji
+  - Ottawa Ontario Canada
+  - Scandinavia
+  - Mustique
+  - Jammu & Kashmir
+  - Sakhalin Island
+  - British Guiana
+  - Atlas Mountains
+  - Kinshasa Democratic Republic of Congo
+  - Lomé, Togo
+  - Altiplano
+  - Lusaka Zambia
+  - Lake Constance
+  - East Java Indonesia
+  - Belize
+  - Bergen-Belsen concentration camp
+  - Antigua
+  - Maca o
+  - Donetsk Peoples Republic
+  - Istalif Afghanistan
+  - Calais France
+  - Lagos Nigeria
+  - Spree River
+  - Sulawesi
+  - New Caledonia
+  - Buka
+  - Sahel
+  - Isle of Man
+  - British Indian Ocean Territory
+  - Hebron West Bank
+  - Edinburgh Scotland
+  - Gaza City Gaza Strip
+  - Jojutla Mexico
+  - Madrid Spain
+  - Kasai River
+  - Skala Sikaminias Greece
+  - Southern Ocean
+  - Ahvaz Iran
+  - Pyrenees Mountains
+  - Somaliland
+  - Genoa Italy
+  - Fangzheng China
+  - Hainan Island
+  - Union of Soviet Socialist Republ ics--USSR
+  - Niger Delta
+  - Jiangsu China
+  - Vichy France
+  - Narva Estonia
+  - Norwegian Sea
+  - Mesopotamia
+  - Badakhshan Afghanistan
+  - Otsuchi Japan
+  - Lod Israel
+  - Darien Gap
+  - Florence Italy
+  - Taklamakan Desert
+  - Polynesia
+  - Macapa Brazil
+  - Emira
+  - Isle of Wight
+  - Hanau Germany
+  - Songhua River
+  - West Indies
+  - Kingston Ontario Canada
+  - Datong China
+  - Bakhmut Ukraine
+  - Machias Seal Island
+  - Solovki
+  - Indawgyi Lake
+  - Andalusia Spain
+  - Al Haditha Iraq
+  - Bialowieza Forest
+  - Havana Cuba
+  - Dar es Salaam Tanzania
+  - Nagasaki Japan
+  - Litani River
+  - Peace River
+  - Susiya West Bank
+  - Guiyang China
+  - Santa Barbara d Oeste Brazil
+  - Ne w York City New York
+  - Kandel Germany
+  - Guangzhou China
+  - Tijuana Mexico
+  - Seelow Germany
+  - Heilongjiang China
+  - Pretoria South Africa
+  - Langkawi
+  - Isle of Skye
+  - Thunder Bay Ontario Canada
+  - Ivory Coast
+  - Iran
+  - Persian Gulf
+  - Japan
+  - Ankara Turkey
+  - Iraq
+  - Syria
+  - Ireland
+  - Irish Sea
+  - Poland
+  - Egypt
+  - Uzbekistan
+  - India
+  - Pakistan
+  - Senegal
+  - England
+  - Somalia
+  - Zimbabwe
+  - Bangladesh
+  - Montreal Quebec Canada
+  - Switzerland
+  - Gulf of Oman
+  - Euphrates River
+  - Beirut Lebanon
+  - Thailand
+  - Ukraine
+  - Mosul Iraq
+  - Singapore
+  - Korean Peninsula
+  - Haiti
+  - Samos
+  - Slovenia
+  - In dia
+  - Kenya
+  - Cyprus
+  - Pacific Ocean
+  - Montenegro
+  - Palestinian territory
+  - Greenland
+  - Caribbean area
+  - Patagonia (region)
+  - Bay of Pigs
+  - Auschwitz Poland
+  - Great Bear Lake
+  - Mischief Reef
+  - Odessa Ukraine
+  - Macedonia
+  - Debaltseve Ukraine
+  - Kunduz Afghanistan
+  - Srebrenica Bosnia-Hercegovina
+  - Mount Kenya
+  - Hague Netherlands
+  - Bavaria Germany
+  - Mongolia
+  - Marshall Islands
+  - Penghu Islands
+  - Nice France
+  - Kolkata India
+  - Turks & Caicos
+  - Ontario Canada
+  - Brasilia Brazil
+  - Himalaya Mountains
+  - Barcelona Spain
+  - Raqqa Syria
+  - Huangpu River
+  - Misurata Libya
+  - Sub-Saharan Africa
+  - Mataram
+  - North Sea
+  - Dnipro Ukraine
+  - Bujumbura Burundi
+  - Nara Japan
+  - Barents Sea
+  - Mount Cook
+  - Rakhine Myanmar
+  - Volga River
+  - Saskatchewan River
+  - Belgrade Serbia
+  - Regensburg Germany
+  - Anbar Iraq
+  - Pacific Rim
+  - Nazareth Israel
+  - Kurdistan Region of Iraq
+  - Guizhou China
+  - Jarabulus Syria
+  - Cape Horn
+  - Bougainville (Autonomous Region of Bougainville)
+  - Hudson Bay
+  - Vancouver Island
+  - Stockholm Sweden
+  - Chagos Archipelago
+  - Krishna River
+  - Dominica
+  - Chengdu Tibet
+  - Sea of Okhotsk
+  - Surtsey
+  - Sumba
+  - Braunau Austria
+  - Ouagadougou Burkina Faso
+  - Lake Maracaibo
+  - Gulf of Guinea
+  - Santo Island
+  - Kerala India
+  - Jeju Island
+  - Panama City Panama
+  - Caucasus Mountains
+  - Ingushetia
+  - Guangxi Zhuang China
+  - Davao Philippines
+  - Gulf of Thailand
+  - Pomerania
+  - Grenada
+  - Hwange National Park
+  - Luanda Angola
+  - Bering Strait
+  - Fraser Island
+  - Elk Lake
+  - Delmenhorst Germany
+  - Pestel Haiti
+  - Thames River
+  - Trieste Italy
+  - North Haven
+  - Evia
+  - Jutland
+  - Abbotsford British Columbia Canada
+  - Tiber River
+  - Oldenburg Germany
+  - Aarhus Denmark
+  - Paros
+  - Majorca
+  - Bogota Colombia
+  - Bay of Biscay
+  - Cotswolds
+  - Kahramana Iraq
+  - Yueyang China
+  - Krajina
+  - Qinghai China
+  - Sunbury England
+  - Vardo Norway
+  - Madhya Pradesh India
+  - Sinaloa Mexico
+  - Juchitan de Zaragoza Mexico
+  - Honduras
+  - Africa
+  - United Arab Emirates
+  - Beijing China
+  - Vietnam
+  - Taiwan
+  - North Africa
+  - Brazil
+  - Lebanon
+  - Madagascar
+  - Oman
+  - Prince Edward Island Canada
+  - Macedonia (Greece)
+  - Turkmenistan
+  - Kazakhstan
+  - Hungary
+  - Luxembourg
+  - Macao
+  - Peru
+  - West Bank
+  - West Africa
+  - Jalalabad Afghanistan
+  - South Ossetia Georgia (country)
+  - Timor-Leste
+  - Ecuador
+  - Andaman Sea
+  - Paraguay
+  - Accra Ghana
+  - Slovakia
+  - Constantinople
+  - San Salvador
+  - East Africa
+  - Kosovo
+  - Norway
+  - Catalan Sea
+  - Uganda
+  - Republic of Macedonia
+  - Phuket Thailand
+  - Sea of Japan
+  - Johannesburg South Africa
+  - Eastern Europe
+  - Dresden Germany
+  - North Pole
+  - Rotherham England
+  - San Marino
+  - Solomon Islands
+  - Moscow Russia
+  - Rome Italy
+  - Tal Afar Iraq
+  - New Delhi India
+  - Dal Lake
+  - Costa Rica
+  - Wroclaw Poland
+  - Antarctic Peninsula
+  - Andaman Islands
+  - Nunavut Territory Canada
+  - Gajah Makmur Indonesia
+  - Kinmen Island
+  - Paisley Scotland
+  - Louveciennes France
+  - Easter Island
+  - Peloponnesus
+  - Mount Vesuvius
+  - New Spain
+  - Izmir Turkey
+  - Han River
+  - Curacao
+  - Taipei Taiwan
+  - Strait of Malacca
+  - Delhi India
+  - Scythia
+  - An Najaf Iraq
+  - Kyakhta
+  - Lake Albert
+  - Lake Victoria
+  - Vistula River
+  - Alexandria Egypt
+  - Jordan River
+  - Marawi Philippines
+  - British Virgin Islands
+  - Amatrice Italy
+  - Medellin Colombia
+  - Tenerife
+  - Inagua
+  - Donetsk Ukraine
+  - Australian Capital Territory Australia
+  - Ural Mountains
+  - Harare Zimbabwe
+  - Abuja Nigeria
+  - Nezahualcoyotl Mexico
+  - Santiago Chile
+  - Luneburg Germany
+  - Senegal River
+  - Inner Mongolia China
+  - Asia Minor
+  - Amman Jordan
+  - Annaberg-Buchholz
+  - North Macedonia
+  - St Lucia
+  - Primorsky Krai Russia
+  - Mount Mayon
+  - Khe Sanh Vietnam
+  - Hurghada Egypt
+  - St Denis France
+  - Yunnan China
+  - Celle Germany
+  - Seoul South Korea
+  - Guatemala City Guatemala
+  - Judah (region of Palestine)
+  - Senkaku Islands
+  - African Great Lakes
+  - Dardanelles
+  - Kara Sea
+  - Kurile Islands
+  - Eth iopia
+  - Stellenbosch South Africa
+  - Morelos Mexico
+  - Unite d States--US
+  - Tokyo Japan
+  - Diaoyu Islands
+  - Indus River
+  - Kaliningrad Russia
+  - Sana Yemen
+  - Waterberg Namibia
+  - Beaver Creek
+  - Hokkaido Island
+  - Baghlan Afghanistan
+  - Disko Bay
+  - Grimsby England
+  - South Island New Zealand
+  - Montserrat (Island)
+  - Sigi Indonesia
+  - North-West Frontier Pakistan
+  - Burlington Ontario Canada
+  - Gir Forest
+  - Adelaide South Australia Australia
+  - Bechuanaland
+  - Sugarloaf Mountain
+  - Jilin China
+  - Princes Islands
+  - Gamboru Ngala Nigeria
+  - Sava River
+  - Cooper River
+  - French Polynesia
+  - Ghana
+  - France
+  - Saudi Arabia
+  - Bahrain
+  - Libya
+  - Kashmir
+  - West Bengal India
+  - Jerusalem Israel
+  - Panama
+  - Qatar
+  - Nicaragua
+  - Latin America
+  - Republic of North Macedonia
+  - Athens Greece
+  - Islamabad Pakistan
+  - Italy
+  - Canary Islands
+  - Azov Sea
+  - Papua New Guinea
+  - Nairobi Kenya
+  - Bolivia
+  - Comoro Islands
+  - Nepal
+  - Helsinki Finland
+  - Southwest Asia
+  - Estonia
+  - Faroe Islands
+  - Vltava River
+  - Auschwitz-Birkenau concentration camp
+  - Gambia
+  - Mexico City Mexico
+  - Manchester England
+  - Spratly Islands
+  - Piestany Slovakia
+  - Mount Everest
+  - Quetta Pakistan
+  - Baluchistan Pakistan
+  - Vatican City
+  - Mount Kinabalu
+  - Great Rift Valley
+  - Quebec Canada
+  - Sinjar Iraq
+  - Hiroshima Japan
+  - Baltic Sea
+  - Western Sahara
+  - Lake Chad
+  - Minsk Belarus
+  - Utoya
+  - Western Australia Australia
+  - Nauru
+  - Kandahar Afghanistan
+  - Sadr City-Baghdad Iraq
+  - Toronto Ontario Canada
+  - Palm Island
+  - Maldives
+  - Gotland
+  - Kerch Strait
+  - Amazon Basin
+  - Crete
+  - South Pole
+  - South Pacific
+  - Sydney New South Wales Australia
+  - BRICS countries
+  - Bute
+  - Nagorno-Karabakh Azerbaijan
+  - Queensland Australia
+  - Java Sea
+  - Kharkiv Ukraine
+  - Mauritius
+  - Cayman Islands
+  - Lampedusa
+  - Gobi Desert
+  - Shetland Islands
+  - Iberian Peninsula
+  - Bering Sea
+  - Swaziland
+  - Monaco
+  - Quebec City Quebec Canada
+  - Frankfurt Germany
+  - Kashgar China
+  - Mindanao Philippines
+  - La Mora Mexico
+  - Pacific region
+  - Siam
+  - Nubia
+  - Samaria
+  - St Petersburg Russia
+  - Surgut Russia
+  - Suriname
+  - Beslan Russia
+  - Uni ted Kingdom--UK
+  - Ascension Island
+  - Gualcarque River
+  - Llivia Spain
+  - Western Desert
+  - Wyom ing
+  - Benue River
+  - Mykolaiv Ukraine
+  - Karnataka India
+  - Tilaurakot Nepal
+  - Tamil Nadu India
+  - Grenadines
+  - Omaha Beach
+  - Menorca (Island)
+  - Don River
+  - China Beach
+  - Andhra Pradesh India
+  - Syros
+  - Mykonos
+  - Taiping Island
+  - Antigua & Barbuda
+  - Northern Europe
+  - Perth Western Australia Australia
+  - Black Forest
+  - Bismarck Sea
+  - Negev Desert
+  - Mekong River
+  - Andorra
+  - Baghran Afghanistan
+  - Nagaland India
+  - Celebes Sea
+  - Belgorod Russia
+  - Ansbach Germany
+  - Samal
+  - Madeira
+  - Andes Mountains
+  - Panjshir Valley Afghanistan
+  - Dachau concentration camp
+  - Bimini
+  - Doel Belgium
+  - Israeli occupied territories
+  - Freeport Indonesia
+  - Bihar India
+  - Nor way
+  - Roraima
+  - Lyon France
+  - Baghuz Syria
+  - Lake Kivu
+  - Balearic Islands
+  - Basque region Spain
+  - Vaulx-en-Velin France
+  - Hualien County Taiwan
+  - Irrawaddy River
+  - Nairobi National Park
+  - Kigali Rwanda
+  - Gambia River
+  - Samarra Iraq
+  - Ayotzinapa Mexico
+  - Kola Peninsula
+  - Siachen Glacier
+  - Strait of Gibraltar
+  - Rio Grande do Sul Brazil
+  - Antakya Turkey
+  - Quemoy Taiwan
+  - Gansu China
+  - Mediterranean Area
+  - New Zealand
+  - Canada
+  - Hong Kong China
+  - Sudan
+  - Darfur Sudan
+  - Philippines
+  - Christchurch New Zealand
+  - Antarctica
+  - Red Sea
+  - Cuba
+  - South China Sea
+  - Now Zad Afghanistan
+  - Central Europe
+  - Cameroon
+  - Serbia
+  - New South Wales Australia
+  - Indonesia
+  - Riyadh Saudi Arabia
+  - Kyiv Ukraine
+  - Western Europe
+  - Bosporus Strait
+  - Pyongyang North Korea
+  - London England
+  - Baja California Mexico
+  - Bali Indonesia
+  - Martinique
+  - South America
+  - Ottoman Empire
+  - Pyeongchang South Korea
+  - Angola
+  - Northwest Territories Canada
+  - West Germany
+  - Chechnya Russia
+  - Tianjin China
+  - Paris France
+  - Lahore Pakistan
+  - Sea of Galilee
+  - Indian Ocean
+  - Paracel Islands
+  - Fukushima Japan
+  - Ghor
+  - Benin
+  - South Australia Australia
+  - Donbas Ukraine
+  - Mandalay Myanmar
+  - Manila Philippines
+  - Chukchi Sea
+  - Idlib Syria
+  - Seychelles
+  - Bucharest Romania
+  - Asia-Pacific region
+  - Bermuda
+  - Windsor Ontario Canada
+  - Palmyra Syria
+  - Tuvalu
+  - Dakar Senegal
+  - Subic Bay
+  - Venice Italy
+  - Levant (historic region)
+  - Mauritania
+  - Moselle River
+  - Damascus Syria
+  - Freetown Sierra Leone
+  - Tasmania Australia
+  - Samoa
+  - Malaita
+  - Dhaka Bangladesh
+  - Mount Kilimanjaro
+  - Mount Fuji
+  - Ceuta & Melilla Spain
+  - Yamuna River
+  - Rhodesia-pre-1979
+  - Mount Nyiragongo
+  - United S tates--US
+  - Punjab Pakistan
+  - Sumatra
+  - Lop Nur
+  - Nile River
+  - Gulf of Aden
+  - Giglio
+  - Loire Valley
+  - Katmandu Nepal
+  - South Chi na Sea
+  - Ayacucho Peru
+  - North Atlantic region
+  - Cape Verde Islands
+  - Corsica
+  - Stonehenge
+  - Novaya Zemlya
+  - Monterrey Mexico
+  - Great Barrier Island
+  - Southern Hemisphere
+  - Singapore Strait
+  - Madura Island
+  - Mayak Russia
+  - Trinidad & Tobago
+  - Baffin Bay
+  - Tekeze River
+  - Sichuan China
+  - Margaret River
+  - Yamal
+  - South Yemen
+  - Channel Tunnel
+  - Lake Winnipeg
+  - New Hamps hire
+  - Beijin g China
+  - Woody Island
+  - Edmonton Alberta Canada
+  - Darling River
+  - Natuna Islands
+  - Como Italy
+  - Kyoto Japan
+  - White Island
+  - Vienna Austria
+  - Birmingham England
+  - Southern Europe
+  - Pamplona Spain
+  - Gueret France
+  - Giza Egypt
+  - Gwadar Pakistan
+  - Aberfan Wales
+  - Mecca Saudi Arabia
+  - Buchenwald concentration camp
+  - Suzhou River
+  - Sentosa Island
+  - Tahiti
+  - Orkney Islands
+  - United Arab Emira tes
+  - Diego Garcia
+  - Nicobar Islands
+  - Lake Geneva
+  - Dnepropetrovsk Ukraine
+  - Liechtenstein
+  - Shenzhen China
+  - Londonderry Northern Ireland
+  - Abidjan Ivory Coast
+  - Grand Manan Island
+  - Lapland
+  - Yellow River
+  - Niamey Niger
+  - Scarborough Shoal
+  - Bath England
+  - San Miguel de Allende Mexico
+  - Mount Athos
+  - Grafton Australia
+  - Montabaur Germany
+  - Guangdong China
+  - Vantaa Finland
+  - San Fr ancisco California
+  - Shandong China
+  - Halle Germany
+  - Victoria Island
+  - South Africa
+  - Black Sea
+  - United Kingdom--UK
+  - Gibraltar
+  - Turkey
+  - Kurdistan
+  - North Korea
+  - Kyrgyzstan
+  - Romania
+  - South Asia
+  - Sri Lanka
+  - Manila Bay
+  - Tanzania
+  - Peshawar Pakistan
+  - Tibet
+  - Niger
+  - Great Barrier Reef
+  - Central Asia
+  - Caucasus
+  - Malaysia
+  - Aegean Islands
+  - Colombia
+  - Arab countries
+  - Palawan
+  - Karachi Pakistan
+  - North America
+  - Okinawa
+  - South Sudan
+  - Mogadishu Somalia
+  - Dnieper River
+  - Aba Nigeria
+  - Aden Yemen
+  - Siberia
+  - Sicily
+  - Northeast Asia
+  - Golan Heights
+  - Falkland Islands
+  - Mumbai India
+  - Calgary Alberta Canada
+  - Croatia
+  - Gujarat India
+  - Nova Scotia Canada
+  - Alps
+  - Mediterranean Sea
+  - Borneo
+  - Mazar-e-Sharif Afghanistan
+  - Davos Switzerland
+  - Alberta Canada
+  - Chengdu China
+  - Ramadi Iraq
+  - Malawi
+  - Danube River
+  - Aruba
+  - Latvia
+  - Azores
+  - Lesbos
+  - Aegean Sea
+  - Christmas Island
+  - Mariupol Ukraine
+  - Grand Bassam Ivory Coast
+  - Helmand Afghanistan
+  - Northwest Passage
+  - Uruguay
+  - Niger River
+  - Caspian Sea
+  - Vancouver British Columbia Canada
+  - Bavaria
+  - Bornhagen Germany
+  - Channel Islands
+  - Yangtze River
+  - Botswana
+  - Budapest Hungary
+  - North Rhine-Westphalia Germany
+  - Ganges River
+  - Chios
+  - Eastern Cape South Africa
+  - Un ited Arab Emirates
+  - Grand Bahama
+  - Madeira (Island)
+  - Torres Strait Islands
+  - Manus Island
+  - Upper Volta
+  - Blue Mountains
+  - Sarajevo Bosnia-Hercegovina
+  - Halifax Nova Scotia Canada
+  - Uttar Pradesh India
+  - Bohemia
+  - Cook Islands
+  - Anatolia
+  - Barbados
+  - Gondwana
+  - Brunei
+  - North Ossetia Russia
+  - Monteroduni Italy
+  - Manipur India
+  - Persia
+  - Serbia & Montenegro
+  - Mount Hermon
+  - Nuba Mountains
+  - Normandy France
+  - Mount Toubkal
+  - Punjab India
+  - Yukon Territory Canada
+  - Dusseldorf Germany
+  - Indochina
+  - Gulf of Tonkin
+  - Matabeleland
+  - Turnberry Scotland
+  - Danang Vietnam
+  - Niue
+  - Tuam Ireland
+  - Penang Malaysia
+  - Palestine (region)
+  - Nunavut Canada
+  - Minas Gerais Brazil
+  - Austria-Hungary
+  - Blackpool England
+  - Viernheim Germany
+  - Baltic states
+  - Puglia Italy
+  - Guadeloupe
+  - Negombo Sri Lanka
+  - Brahmaputra River
+  - Ru ssia
+  - Taimyr Peninsula
+  - Salisbury England
+  - Canterbury England
+  - Charleroi Belgium
+  - Ionian Islands
+  - Kish Iran
+  - Weddell Sea
+  - Funen Island
+  - Baku Azerbaijan
+  - Kashmir India
+  - Lake Toba
+  - Moria Greece
+  - Conakry Guinea
+  - Kyushu Japan
+  - Ghazni Afghanistan
+  - Madaya Syria
+  - Michoacan Mexico
+  - Nickelsdorf Austria
+  - Leros
+  - Chipping Norton England
+  - Prato Italy
+  - Luhansk Ukraine
+  - Manbij Syria
+  - Fergana Valley
+  - Melanesia
+  - Dura-Europos
+
+# Domestic locations within the United States
+domestic_locations:
+  - Texas
+  - Long Island New York
+  - Iowa
+  - Louisiana
+  - Ohio
+  - Arizona
+  - Pittsburgh Pennsylvania
+  - Paso Robles California
+  - Cape Cod Massachusetts
+  - Liberty Island
+  - Kansas
+  - South Florida
+  - Moscow Idaho
+  - Rhode Island
+  - Monterey Park California
+  - Santa Clarita California
+  - Tampa Bay
+  - Santa Clara County California
+  - East Texas
+  - Virgin Islands-US
+  - Henrico County Virginia
+  - Bend Oregon
+  - Fort Chaffee
+  - Northern Mariana Islands
+  - Ross Lake
+  - Ventura County California
+  - Macomb County Michigan
+  - Arizona Trail
+  - Vancouver Washington
+  - Marin County California
+  - Costa Mesa California
+  - Los Altos California
+  - Jersey Shore
+  - Potomac River
+  - North Charleston South Carolina
+  - Bonneville Salt Flats
+  - Sayreville New Jersey
+  - Galveston County Texas
+  - Round Rock Texas
+  - Tenne ssee
+  - Huntington Beach California
+  - Rancho Palos Verdes California
+  - Riverside County California
+  - Fort William Henry
+  - Willamette Valley
+  - Rocky Mountains
+  - Nueces County Texas
+  - Visalia California
+  - Great Plains
+  - Milwaukee Wisconsin
+  - Ma ine
+  - Portland Oregon
+  - California
+  - Colorado
+  - Los Angeles California
+  - Alabama
+  - Nashville Tennessee
+  - Baton Rouge Louisiana
+  - Hawaii
+  - Washington (state)
+  - San Clemente California
+  - Mississippi
+  - Illinois
+  - Delaware
+  - Des Moines Iowa
+  - Detroit Michigan
+  - Broward County Florida
+  - Lake Mead
+  - North Dakota
+  - Bexar County Texas
+  - Tarrant County Texas
+  - Cobb County Georgia
+  - Inland Empire
+  - Gwinnett County Georgia
+  - Finger Lakes
+  - Kern County California
+  - Oakland California
+  - Fort Bliss
+  - Redwood City California
+  - San Juan River
+  - Tijuana River
+  - Anaheim California
+  - Culver City California
+  - Los Angeles Calif ornia
+  - Coweta County Georgia
+  - McLennan County Texas
+  - Permian Basin
+  - Windsor Virginia
+  - Sturgis South Dakota
+  - East Baton Rouge Parish Louisiana
+  - Marco Island
+  - North Slope
+  - Priest Lake
+  - Devils Lake
+  - Mount Rushmore
+  - Andover New Jersey
+  - Morningside Park
+  - Long Island Sound
+  - New Jersey
+  - New York City New York
+  - Alabama River
+  - Alameda County California
+  - Alaska
+  - Amarillo Texas
+  - Amelia Island
+  - American River
+  - American Samoa
+  - Ann Arbor Michigan
+  - Appalachia
+  - Arkansas
+  - Atlanta Georgia
+  - Bakersfield California
+  - Baltimore Maryland
+  - Bolsa Chica
+  - Boston Massachusetts
+  - Boulder County Colorado
+  - Bristol Bay
+  - Bronx New York
+  - Brooklyn New York
+  - Camp David
+  - Cape Canaveral Florida
+  - Carrizo Springs Texas
+  - Cayuga Lake
+  - Central Park-New York City NY
+  - Central Valley
+  - Charleston South Carolina
+  - Charlottesville Virginia
+  - Chattahoochee River
+  - Chesapeake Bay
+  - Chicago Illinois
+  - Chicago River
+  - Chula Vista California
+  - City Island
+  - Cleveland Ohio
+  - Colleyville Texas
+  - Collin County Texas
+  - Colorado River
+  - Colorado Springs Colorado
+  - Columbia River
+  - Columbus Ohio
+  - Connecticut
+  - Cook County Illinois
+  - Crystal River
+  - Death Valley
+  - Detroit River
+  - East Bay California
+  - Eastern Kentucky
+  - East Lansing Michigan
+  - East Los Angeles California
+  - East Palestine Ohio
+  - Eastern states
+  - Ellis Island
+  - Escondido California
+  - Everglades
+  - Florida
+  - Florida Keys
+  - Fort Bliss
+  - Fort Hancock
+  - Fort McClellan
+  - Fort Missoula
+  - Fort Worth Texas
+  - Fox Lake
+  - Franklin County Ohio
+  - Frio County Texas
+  - Georgia
+  - Governors Island
+  - Gowanus Canal
+  - Grand Canyon
+  - Grand Rapids Michigan
+  - Grand River
+  - Great Lakes
+  - Green River
+  - Guam
+  - Gulf of Mexico
+  - Harlem River
+  - Hart Island
+  - Houston Texas
+  - Hudson River
+  - Hudson River Park
+  - Hudson Valley
+  - Iberia Parish Louisiana
+  - Idaho
+  - Indiana
+  - Indianapolis Indiana
+  - Indian River
+  - Inglewood California
+  - Iowa
+  - Iowa City Iowa
+  - Jefferson Parish Louisiana
+  - Kalamazoo Michigan
+  - Kansas City Missouri
+  - Kenosha Wisconsin
+  - Kentucky
+  - Kentucky River
+  - Kinney County Texas
+  - Kirkland Washington
+  - La Crosse Wisconsin
+  - La Jolla California
+  - Lafayette Louisiana
+  - Lake Charles
+  - Lake Erie
+  - Lake George
+  - Lake Huron
+  - Lake Michigan
+  - Lake Ontario
+  - Lake Shasta
+  - Lake Superior
+  - Lake Tahoe
+  - Laredo Texas
+  - Las Colinas Texas
+  - Las Vegas Nevada
+  - Lexington Kentucky
+  - Little Red River
+  - Los Angeles County California
+  - Los Angeles River
+  - Louisville Kentucky
+  - Lubbock Texas
+  - Maine
+  - Malibu California
+  - Maryland
+  - Massachusetts
+  - Mauna Kea
+  - Mauna Loa
+  - Mendocino County California
+  - Merced County California
+  - Miami Florida
+  - Miami-Dade County Florida
+  - Michigan
+  - Midwest states
+  - Minneapolis Minnesota
+  - Minnesota
+  - Mississippi River
+  - Mississippi Valley
+  - Missouri
+  - Modesto California
+  - Mojave Desert
+  - Montana
+  - Monterey County California
+  - Moreno Valley
+  - Mount Rainier
+  - Mount Shasta
+  - Mount Tamalpais
+  - Nantucket Massachusetts
+  - Napa County California
+  - Napa Valley
+  - Nebraska
+  - Nevada
+  - New Hampshire
+  - New Mexico
+  - New Rochelle New York
+  - New York
+  - New York City New York
+  - New York Harbor
+  - Newark New Jersey
+  - Newport Beach California
+  - Neuse River
+  - Newtown Creek
+  - Niagara Falls
+  - North Carolina
+  - Northern California
+  - Northeastern states
+  - Oakland County Michigan
+  - Ohio River
+  - Oklahoma
+  - Orlando Florida
+  - Orleans Parish Louisiana
+  - Pacific Grove California
+  - Pacific Northwest
+  - Palo Alto California
+  - Parris Island
+  - Pawleys Island
+  - Pearl Harbor
+  - Pearl River
+  - Pennsylvania
+  - Philadelphia Pennsylvania
+  - Pine River
+  - Placer County California
+  - Poudre River
+  - Prescott Arizona
+  - Puerto Rico
+  - Queens New York
+  - Raleigh North Carolina
+  - Randalls Island
+  - Rancho Mirage California
+  - Redondo Beach California
+  - Rio Grande
+  - Rio Grande River
+  - Rio Grande Valley
+  - Riverside Park
+  - Robstown Texas
+  - Rock Creek
+  - Round Valley
+  - Russian River
+  - Sacramento California
+  - Sacramento County California
+  - Salt River
+  - San Bernardino County California
+  - San Bruno California
+  - San Diego County California
+  - San Francisco Bay
+  - San Francisco California
+  - San Jacinto County Texas
+  - San Joaquin County California
+  - San Joaquin Valley
+  - San Juan Capistrano California
+  - San Juan Mountains
+  - San Leandro California
+  - San Luis Obispo California
+  - San Luis Obispo County California
+  - San Mateo California
+  - Sanibel Island
+  - Santa Barbara California
+  - Santa Clara Valley
+  - Santa Cruz County California
+  - Sarasota County Florida
+  - Sarasota Florida
+  - Savannah River
+  - Seattle Washington
+  - Shasta County California
+  - Sheepshead Bay
+  - Silicon Valley-California
+  - Simi Valley California
+  - Snake River
+  - Solano County California
+  - Sonoma County California
+  - South Carolina
+  - South Dakota
+  - Southern California
+  - Southern states
+  - Southeastern states
+  - Squaw Valley
+  - St Louis Missouri
+  - Starr County Texas
+  - Stone Mountain
+  - Susquehanna Valley
+  - Tennessee
+  - Thousand Oaks California
+  - Three Mile Island
+  - Trinity River
+  - Tulare County California
+  - United States --US
+  - United States-- US
+  - United States--U S
+  - United States--US
+  - United Sta tes--US
+  - United St ates--US
+  - Un ited States--US
+  - Upper Klamath Lake
+  - Utah
+  - Uvalde County Texas
+  - Vermont
+  - Virginia
+  - Washington DC
+  - Washington Square Park
+  - Webb County Texas
+  - West Hollywood California
+  - West Texas
+  - West Virginia
+  - Western states
+  - White River
+  - Wilmington Delaware
+  - Winooski River
+  - Wisconsin
+  - Wyoming
+  - Zapata County Texas
+  - Zavala County Texas
+  - Iow a
+  - Boone North Carolina
+  - Brazoria County Texas
+  - Cook Inlet
+  - Grand Island New York
+  - Green Mountains
+  - Lake of the Woods
+  - Marina del Rey California
+  - Matagorda Bay
+  - Memphis Tennessee
+  - Midway Islands
+  - Saipan
+  - St Tammany Parish Louisiana
+  - Straits of Florida
+  - Thousand Islands
+  - Tinian
+
+# SQL query for filtered articles view
+filtered_articles: |
+  SELECT id,
+
+  strftime(TRY_STRPTIME(publication_date, '%b %d, %Y')::DATE,'%a., %b. %-d, %Y') as publication_date,
+
+  --coalesce(publication_date::VARCHAR, 'N/A') as publication_date,
+
+  COALESCE(location, 'N/A') as location,
+
+  COALESCE(subject, 'N/A') as subject,
+
+  COALESCE(people, 'N/A') as people,
+
+  coalesce(full_text, '[TEXT MISSING]') as full_text
+
+  from
+
+  raw.articles a
+
+  WHERE
+
+  -- First include only rows from Group 3a
+
+  (
+
+  (replace(section, ' ', '') IS NULL OR replace(section, ' ', '') LIKE '%Fore%')
+
+  AND NOT EXISTS (
+
+  SELECT 1
+
+  FROM staging.excludable_subjects e
+
+  JOIN (
+
+  SELECT trim(value) as subject
+
+  FROM unnest(string_split(a.subject, ';')) AS t(value)
+
+  ) s ON e.subject_name = s.subject
+
+  )
+
+    AND (
+
+    a.subject IS NULL
+
+    OR EXISTS (
+
+    SELECT 1
+
+    FROM staging.relevant_subjects r
+
+    JOIN (
+
+    SELECT trim(value) as subject
+
+    FROM unnest(string_split(a.subject, ';')) AS t(value)
+
+    ) s ON r.subject_name = s.subject
+
+    )
+
+    )
+
+    )
+
+    -- Then add location filter - location is NULL or contains at least one non-domestic location
+
+    AND (
+        a.location IS NULL
+        OR EXISTS (
+            SELECT 1
+            FROM UNNEST(regexp_split_to_array(a.location, ';')) AS ss(value)
+            LEFT JOIN staging.domestic_locations dl
+                ON TRIM(ss.value) = dl.location_name
+            WHERE dl.location_name IS NULL
+        )
+    ) 

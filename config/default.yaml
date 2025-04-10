@@ -1,0 +1,94 @@
+# config/default.yaml
+# Default configuration for MIC analysis - UPDATED STRUCTURE
+
+project:
+  root: . # Kept from original
+
+data:
+  raw_dir: data/raw           # Kept from original
+  interim_dir: data/interim   # Kept from original
+  processed_dir: data/processed # Kept from original
+  external_dir: data/external   # Kept from original
+
+database:
+  path: data/processed/mic_analysis.duckdb # Kept from original
+
+# NEW STRUCTURE for loading parameters
+loading:
+  proquest:
+    enabled: true                                # Added default
+    source_subdir: ""                            # Added default (empty means use raw_dir directly)
+    filename_prefix: "ProQuestDocuments"         # Interpreted from old file_pattern, assuming startswith logic
+    recursive: true                              # Transferred from old articles.recursive
+    target_table: "raw.articles"                 # Added default target table
+    excluded_subdirs: []                         # Added default (empty list)
+    separator: "\n____________________________________________________________\n"   # Add this line with appropriate separator pattern
+
+  nyt:
+    enabled: true                                # Added default
+    # Update the source_subdir based on your actual directory structure
+    # If your NYT files are directly in the raw_dir, use empty string
+    # If they're in a subdirectory, specify the relative path from raw_dir
+    source_subdir: "New York Times/2011-2014"    # Adjust this path as needed
+    filename_prefix: "sorted"                    # Added default (from legacy script)
+    recursive: true                              # Added default (common for subdirs)
+    target_table: "raw.parsed_articles"          # Added default target table
+    bad_keys_table: "staging.bad_keys"           # Added default bad keys table
+    article_separator: "---------------------------------------------------------------" # Added default
+    text_start_marker: ">>>>>>>>>>>>>>>>>>>>>>"  # Added default
+    text_end_marker: "<<<<<<<<<<<<<<<<<<<<<<"    # Added default
+
+# NEW SECTION for system-level settings
+system:
+  # Number of worker processes for parallel loading.
+  # The script defaults to cpu_count - 1 if not specified here.
+  # Explicitly setting it can be useful for resource management.
+  parallel_workers: 7 # Example: Set explicitly (adjust as needed)
+
+# NEW SECTION for prompt configuration
+prompt:
+  military_forces:
+    definition: "A relevant MIC event occurs when the **military forces** of one **internationally recognized state** directly cause the death of one or more **military personnel** belonging to **another internationally recognized state**."
+    primary_forces:
+      - "**Regular Armed Services:** Army, Navy, Air Force, Marines, Space Force, etc. operating under official military command"
+      - "**National Guard/Reserve Forces:** When federalized/nationalized or deployed in combat operations"
+      - "**Border Guards/Coast Guards:** When under military command structure or conducting military operations (not routine patrol)"
+      - "**Military Intelligence Units:** When operating in combat roles"
+    secondary_forces:
+      paramilitary_criteria:
+        - "Direct state control through military chain of command"
+        - "Military-style operations beyond internal security"
+        - "State acknowledgment of their actions"
+      mercenaries_criteria:
+        - "Formally integrated into military operations"
+        - "Under direct military command control"
+        - "Officially acknowledged as operating on behalf of state"
+    exclusions:
+      - "Civilian law enforcement agencies performing domestic functions"
+      - "Intelligence agents in non-combat operations"
+      - "Rebel/insurgent groups lacking formal state recognition/control"
+      - "Private security companies operating independently"
+      - "Civilian border or customs officials"
+      - "Peacekeepers operating under UN/international command (not national)"
+    decision_rules:
+      - "Official designation in source material (article specifically identifies as military)"
+      - "Command structure (reports to military chain of command)"
+      - "Function (performing traditional military operations)"
+      - "Equipment (using military-grade weapons/vehicles)"
+      - "State acknowledgment (officially recognized as state military action)"
+    ambiguous_rule: "When coding, an entity must satisfy at least three of these criteria to qualify as military forces for MIC purposes."
+  
+  output_schema_properties_order:
+    - "article_id"
+    - "is_relevant"
+    - "start_year"
+    - "start_month"
+    - "start_day"
+    - "end_year"
+    - "end_month"
+    - "end_day"
+    - "fatalities_min"
+    - "fatalities_max"
+    - "countries_suffering_losses"
+    - "countries_causing_losses"
+    - "explanation"
